@@ -1,0 +1,150 @@
+.container{
+    height:782px; 
+    width: 1000px;
+    background-color:wheat;
+    margin: auto; 
+    display:flex;
+    flex-wrap: wrap;
+    border-radius:2px;
+}
+
+.left-panel{
+    height:80px;
+    width:400px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.right-panel{
+    height:80px;
+    width:600px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+.inner-container1{
+    height:700px;
+    width: 400px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inner-container2{
+    height:700px;
+    width: 600px;
+    background-color: #f0f0f0;;
+}
+
+.input-container{
+    width: 600px;
+    height:50px;
+    background-color: whitesmoke;
+    position: relative;
+    top:650px;
+    border-radius:2px;
+}
+
+input[type="text"]{
+    background-color: white;
+    /* margin-left:50px; */
+    margin-top: 10px;
+    height: 25px;
+    width: 450px;
+    border-radius: 4px;
+    border: white;
+}
+#first{
+    background-color: powderblue;
+    padding: 40px;
+    font-size: large;
+}
+#second{
+    background-color:white;
+    padding: 20px;
+    font-size: medium;
+}
+#third{
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-right: 10px;
+    font-size: x-large;
+}
+#fourth{
+    background-color: white;
+    padding: 40px;
+    border-bottom: 0.5px solid #f0f0f0;
+    font-size: xx-large;
+}
+#first-icon{
+    align-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+}
+#second-icon{
+    align-content: center;
+    margin-left: 250px;
+    font-size: x-large;
+}
+#third-icon{
+    align-content: center;
+    margin-left: 50px;
+    font-size: x-large;
+}
+#first-1{
+    align-content: center;
+    font-size: x-large;
+    margin-left: 10px;
+}
+#second-2{
+    align-content: center;
+    margin-left: 370px;
+    font-size: x-large;
+}
+#third-3{
+    align-content: center;
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+#smile{
+    margin-top: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: large;
+}
+#mic{
+    margin-left: 20px;
+    font-size: large;
+}
+#text{
+    margin-top: 400px;
+    margin-left: 200px;
+    
+}
+#date{
+    
+    margin-right:200px;
+    background-color: lightcyan;
+    padding: 1px;
+    border-radius:4px;
+    text-align: center;
+    
+}
+#msg1{
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius:4px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#msg2{
+    margin-left: 20px;
+    margin: 5px;
+    background-color: lightgreen;
+    padding: 1px;
+    border-radius:4px;
+    text-align: center;
+}
